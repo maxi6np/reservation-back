@@ -10,11 +10,5 @@ export default defineConfig({
             ],
             refresh: true,
         }),
-    ],
-    build: {
-        outDir: 'public/build', // Ensure this path matches where you want your assets to be output.
-        rollupOptions: {
-            // Other Vite build options
-        },
-    },
+    ]
 });
